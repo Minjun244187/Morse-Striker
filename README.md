@@ -1,7 +1,12 @@
 # MorseStriker
 
-Morse Code Practice & Game Android App
-**MorseStriker is an Android app that teaches and practices Morse Code through levels and a game-based practice system.**
+## A Morse Code Practice & Game Android App
+
+**[▶ Download & Play MorseStriker](link)**
+
+[images]
+
+MorseStriker is an Android app that teaches and practices Morse Code through levels and a game-based practice system.
 
 ## Why I Started This Project
 
@@ -19,10 +24,10 @@ I divided Morse Code practice into **Letter → Word → Sentence**, with a game
 
 Learn and practice the Morse Code for individual letters.
 
-| Letter | Morse Code |
-| ------ | ---------- |
-| A      | .-         |
-| B      | -...       |
+| **Letter** | **Morse Code** |
+| ---------- | -------------- |
+| A          | .-             |
+| B          | -...           |
 
 After learning, the Letter Game lets you practice the letters.
 
@@ -30,10 +35,10 @@ After learning, the Letter Game lets you practice the letters.
 
 Learn short words and basic Morse Code expressions used in Amateur Radio.
 
-| Word | Morse Code |
-| ---- | ---------- |
-| HI   | .... ..    |
-| TNX  | - -. -..-  |
+| **Word** | **Morse Code** |
+| -------- | -------------- |
+| HI       | .... ..        |
+| TNX      | - -. -..-      |
 
 After learning, the Word Game lets you practice the words.
 
@@ -69,7 +74,9 @@ I created the Morse Code sounds directly in the app.
 
 ## Source Code
 
-| File                            | Description                          |
+The source code is organized into several main parts:
+
+| **File**                        | **Description**                      |
 | ------------------------------- | ------------------------------------ |
 | `LetterPracticeActivity.java`   | Letter learning and Letter Game      |
 | `WordPracticeActivity.java`     | Word learning and Word Game          |
