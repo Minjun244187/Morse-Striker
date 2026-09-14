@@ -10,15 +10,15 @@ MorseStriker is an Android app that teaches and practices Morse Code through lev
 
 ## Why I Started This Project
 
-I first learned about Morse Code in middle school and started studying it little by little. By 9th grade, I had learned it well enough to use it.
+I first discovered Morse Code in middle school and thought it was interesting that people could communicate using a code made of just dots and dashes. I started learning it on my own and knew it well enough to use it.
 
-In 10th grade, I took AP Java. During the summer, I started building a Morse Code practice app using the Java I learned in class. Around the same time, I also earned my FCC Amateur Radio Technician Class License.
+In 10th grade, I took AP Java. During the summer, I started building a Morse Code practice app and also earned my FCC Amateur Radio Technician Class License.
 
-I used several Morse Code learning apps as part of my market research, but I had a hard time finding one that used game elements in a fun way. So I decided to build my own.
+I used several Morse Code learning apps for market research, but had a hard time finding one that used game elements in a fun way. That led me to build my own.
 
 ## How It Works
 
-I divided Morse Code practice into **Letter → Word → Sentence**, with a game after each learning stage.
+I divided Morse Code practice into three stages: Letter → Word → Sentence. The Letter and Word stages include games.
 
 ### 1. Letter
 
@@ -44,7 +44,7 @@ After learning, the Word Game lets you practice the words.
 
 ### 3. Sentence
 
-The same idea is used for sentences, followed by the Sentence Game.
+The Sentence stage is included, but the game for this stage has not been implemented yet.
 
 ## Game
 
@@ -90,8 +90,10 @@ The source code is organized into several main parts:
 
 ## What I Learned
 
-Through this project, I applied what I learned in AP Java to a real Android app. I used Android Activities to build the screens, handled user input, created Morse Code sounds directly with AudioTrack, and implemented the falling game and scoring system.
+I learned that turning an idea into an actual app required much more research and planning than I expected. I needed to understand the perspective of users who did not know Morse Code, as well as the technical details. For example, Morse Code has specific timing rules: a dot is about 1 unit (60 ms), a dash is 3 units, the space between letters is 3 units, and the space between words is 7 units.
 
-I also worked on setting the actual timing of Morse Code sounds and reducing input delays to make the Dot and Dash buttons more responsive. I spent a lot of time on the UI and kept adjusting the layout and colors so that even users who did not know Morse Code could understand and use the app easily.
+The app did not require complicated algorithms, but I spent a lot of time making the screens simple and easy to use. I learned how important it is to think about how users will actually use an Android app through the screen.
 
-The app was not technically very complex, but I learned that designing something from the user's perspective and turning a working program into a real product was much harder than I expected.
+The game idea came from Hangul typing practice that I used in second grade. I remembered the game where letters fall down the screen and you have to type them before they reach the bottom. It was fun and satisfying to turn that childhood memory into something I could actually build.
+
+I was not able to finish the Sentence stage, so I did not release the app. I plan to finish it and release it in the future.
