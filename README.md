@@ -92,8 +92,9 @@ The source code is organized into several main parts:
 
 I learned that turning an idea into an actual app required much more research and planning than I expected. I needed to understand the perspective of users who did not know Morse Code, as well as the technical details. For example, Morse Code has specific timing rules: a dot is about 1 unit (60 ms), a dash is 3 units, the space between letters is 3 units, and the space between words is 7 units.
 
-The app did not require complicated algorithms, but I spent a lot of time making the screens simple and easy to use. I learned how important it is to think about how users will actually use an Android app through the screen.
+The app did not require complicated algorithms, but I spent a lot of time making the screens simple and easy to use, because I realized that it is the most important part.
 
-The game idea came from Hangul typing practice that I used in second grade. I remembered the game where letters fall down the screen and you have to type them before they reach the bottom. It was fun and satisfying to turn that childhood memory into something I could actually build.
+The game idea came from a Hangul typing game I used in second grade. I remembered typing the falling letters as quickly as I could before they reached the bottom. It was exciting to see an idea from my childhood become something I could actually build.
 
-I was not able to finish the Sentence stage, so I did not release the app. I plan to finish it and release it in the future.
+I want to finish the Sentence stage and release the app on Google Play.
+
