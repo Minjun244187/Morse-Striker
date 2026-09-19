@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/word_level_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#508E87">
+
+    <!-- Level 1 Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/word_level01"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="start|top"
+        android:paddingStart="16dp"
+        android:singleLine="false"
+        android:text="LVL1: HI (hello)\n         73 (best regards)\n         TNX (thanks)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Level 2 Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/word_level02"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="start|top"
+        android:paddingStart="16dp"
+        android:singleLine="false"
+        android:text="LVL2: DE (from)\n         K (over)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/word_level01"
+        tools:ignore="HardcodedText,RtlSymmetry" />
+
+    <!-- Level 3 Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/word_level03"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="start|top"
+        android:paddingStart="16dp"
+        android:singleLine="false"
+        android:text="LVL3: R (received)\n         PSE (please)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/word_level02" />
+
+    <!-- Level 4 Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/word_level04"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="start|top"
+        android:paddingStart="16dp"
+        android:singleLine="false"
+        android:text="LVL4: QTH (location)\n  QSL (acknowledge receipt)\n  QSO (radio contact)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/word_level03" />
+
+    <!-- Level 5 Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/word_level05"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="start|top"
+        android:paddingStart="16dp"
+        android:singleLine="false"
+        android:text="LVL5: \nSK (end contact/silent key)\nRST (readability, signal, tone)"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/word_level04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Level 6 Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/word_level06"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="start|top"
+        android:paddingStart="16dp"
+        android:singleLine="false"
+        android:text="LVL6: BK (break)\n   AR (end of message)\n   CQ (calling any station)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/word_level05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Level 7 Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/word_level07"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="start|top"
+        android:paddingStart="16dp"
+        android:singleLine="false"
+        android:text="LVL7: QRM (interference)\n         QRN (static noise)\n         QRP (low power)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/word_level06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Level 8 Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/word_level08"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="start|top"
+        android:paddingStart="16dp"
+        android:singleLine="false"
+        android:text="LVL8: QRT (stop sending) \n   QSY (change frequency)\n   QRZ (who is calling me?)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/word_level07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Level 9 Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/word_level09"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="center"
+        android:text="ALL TEST"
+        android:textColor="#A8A4A4"
+        android:textSize="15sp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/word_level08" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

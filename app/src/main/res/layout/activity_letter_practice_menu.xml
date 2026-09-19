@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/letter_level_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#508E87">
+
+    <!-- Level 1 -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_level01"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lvl1: E(·) T(–) A(·–)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- Level 2 -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_level02"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lvl2: N(–·) M(––) I(··)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/letter_level01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- Level 3 -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_level03"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lvl3: O(–––) S(···) H(····)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/letter_level02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- Level 4 -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_level04"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lvl4: R(·–·) D(–··) U(··–)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/letter_level03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- Level 5 -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_level05"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lvl5: K(–·–) C(–·–·) W(·––)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/letter_level04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- Level 6 -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_level06"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lvl6: G(––·) L(·–··) F(··–·)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/letter_level05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- Level 7 -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_level07"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lvl7: B(–···) V(···–) Y(–·––)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/letter_level06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- Level 8 -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_level08"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lvl8: Z(––··) Q(––·–) J(.---)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/letter_level07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- Level 9 -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_level09"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lvl9: 0(–––––) 1(·––––) 2(··–––)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/letter_level08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- Level 10 -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_level10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lvl10: 3(···––) 4(····–) 5(·····)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/letter_level09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- Level 11 -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_level11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lvl11: 6(–····) 7(––···) 8(–––··)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/letter_level10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- Level 12 -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_level12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lvl12: 9(––––·)"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/letter_level11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- Level 13 -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_level13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Lvl13: A~Z, 0~9 ALL TEST"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        app:backgroundTint="@color/button_color"
+        app:layout_constraintTop_toBottomOf="@id/letter_level12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
