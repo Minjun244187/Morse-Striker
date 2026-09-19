@@ -12,15 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MorseStriker">
 
-        <activity android:name=".MainActivity" />
-        <activity android:name=".ModeSelectActivity" />
-        <activity android:name=".StartActivity"
+        <!-- Set Luncher to ModeSelectActivity -->
+        <activity android:name=".ModeSelectActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".LetterPracticeActivity" />
+        <activity android:name=".LetterPracticeMenuActivity" />
+        <activity android:name=".WordPracticeActivity" />
+        <activity android:name=".WordPracticeMenuActivity" />
+        <activity android:name=".SentencePracticeActivity" />
+        <activity android:name=".SentencePracticeMenuActivity" />
 
     </application>
 
