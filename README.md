@@ -8,8 +8,7 @@
   <img src="img/s1.png" width="30%">&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="img/s2.png" width="30%">&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="img/s3.png" width="30%">
-</div>
-
+</div><br>
 
 MorseStriker is an Android app that teaches and practices Morse Code through levels and a game-based practice system.
 
