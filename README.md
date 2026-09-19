@@ -5,8 +5,8 @@
 **[▶ Download & Play MorseStriker](link)**
 
 <div>
-  <img src="img/s1.png" width="30%">
-  <img src="img/s2.png" width="30%">
+  <img src="img/s1.png" width="30%">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="img/s2.png" width="30%">&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="img/s3.png" width="30%">
 </div>
 
